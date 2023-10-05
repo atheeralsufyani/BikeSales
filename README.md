@@ -11,4 +11,4 @@ Data set:
 https://www.kaggle.com/code/sadiqshah/bike-store-sales-in-europe/comments
 
 Data Visualization using Tableau:
-https://public.tableau.com/views/BikeSales_16958041180900/MonthlyProfit?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link 
+https://public.tableau.com/views/BikeSales_16958041180900/SumProfit?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
