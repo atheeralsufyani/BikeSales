@@ -1,7 +1,8 @@
 # BikeSales
 My first data analysis project!
-I worked on the Bike Sales dataset, to extract summed monthly profit from each state/region of USA, Canada, UK, Germany, France, and Australia. filtered by years 2011-2016.
+I worked on the Bike Sales dataset, to extract summed profit from each state/region of USA, Canada, UK, Germany, France, and Australia. filtered by years 2011-2016.
 Using
+
     •	Excel
     •	SQL
     •	Tableau
