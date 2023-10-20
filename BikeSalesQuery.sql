@@ -16,8 +16,26 @@ UPDATE Sales Set Month = Case
 		When Month = 'December' then 12
 		End
 
---Profit per year for each country and State--
-select Country, State, Year, Sum(Profit) as ProfitPerYear
+--Profit per year for each country--
+Select Country, Year, sum(Profit) as SumProfit
 from Sales
-group by Country, State, Year
-order by 1,2,3
+group by Country, Year
+order by Country, Year
+
+--Counting Customers per Country--
+select Country, count(Customer_Gender)
+from Sales
+group by Country
+
+--Counting Customer Genders per Country--
+select distinct Customer_Gender, Country, COUNT(Customer_Gender) 
+as CountCustomerGender
+from Sales
+group by Customer_Gender, Country
+order by 2
+
+--Counting Age Groups per Country--
+select distinct Age_Group, COUNT(Age_Group) as CountAgeGroup, Country
+from Sales
+group by Country, Age_Group
+order by Country
