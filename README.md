@@ -1,10 +1,10 @@
 # BikeSales
 My first data analysis project!
-I worked on the Bike Sales dataset, to extract summed profit, total customers, customer genders, and age groups from each country throughout the years 2011-2016.
-Using: 
-    •	Excel
-    •	SQL
-    •	Tableau
+I worked on the Bike Sales dataset, to extract sum profit, total customers, customer genders, and age groups from each country throughout the years 2011-2016.
+    Using: 
+        •	Excel
+        •	SQL
+        •	Tableau
 
 The dataset consists of 18 columns showing the bike sales In USA, Canada, UK, Germany, France, and Australia.
 Data set:
